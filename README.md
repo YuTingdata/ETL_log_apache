@@ -6,14 +6,14 @@ Il télécharge les logs depuis une URL publique, détecte les nouvelles lignes,
 ---
 
 ## Structure du projet
-
+```
 .
 ├── etl_tp_main.py # Script principal pour télécharger, parser et sauvegarder les logs
 ├── etl_tp_utils.py # Module utilitaire avec la regex et la fonction de parsing
 ├── apache_logs.txt # Fichier accumulant les lignes de log déjà vues
 ├── logs_YYYY-MM-DD.csv # Fichiers CSV générés, un par jour
 └── README.md 
-
+```
 
 ---
 
